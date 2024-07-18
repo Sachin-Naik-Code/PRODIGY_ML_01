@@ -1,32 +1,17 @@
-# PRODIGY_ML_01
-Linear regression model to predict house prices based on square footage, bedrooms, and bathrooms.
-# PRODIGY_ML_01
+# House Price Prediction
 
-## Linear Regression Model for House Price Prediction
+This project implements a linear regression model to predict house prices based on their square footage and the number of bedrooms and bathrooms.
 
-### Task Description
-This project involves implementing a linear regression model to predict the prices of houses based on their square footage (`GrLivArea`), number of bedrooms (`BedroomAbvGr`), and number of full bathrooms (`FullBath`).
+## Dataset
+The dataset used for this project is from the [House Prices - Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data) competition on Kaggle.
 
-### Dataset
-The dataset used for this task is the [Ames Housing dataset](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data) from Kaggle.
+## Files
+- `house_price_prediction.py`: Main script to preprocess the data, train the model, and make predictions.
+- `train.csv`: Training dataset.
+- `test.csv`: Test dataset.
+- `sample_submission.csv`: Sample submission file.
 
-### Steps Completed
-1. **Data Loading:** Loaded the `train.csv` file.
-2. **Data Preprocessing:**
-   - Handled missing values by filling with the median for numerical features.
-   - Selected relevant features (`GrLivArea`, `BedroomAbvGr`, `FullBath`).
-3. **Model Training:**
-   - Split the data into training and testing sets.
-   - Trained a Linear Regression model using `sklearn.linear_model.LinearRegression`.
-4. **Model Evaluation:**
-   - Evaluated the model using Mean Squared Error (MSE) and R^2 Score.
-   - Visualized the results with a scatter plot of actual vs. predicted sale prices.
-
-### Results
-- **Mean Squared Error:** 1333843783.608151
-- **R^2 Score:** 0.8261033823622346
-
-### How to Run the Code
-1. Clone the repository.
+## How to Run
+1. Ensure all the necessary libraries are installed:
    ```bash
-   git clone https://github.com/Sachin-Naik-Code/PRODIGY_ML_01.git
+   pip install pandas numpy scikit-learn
