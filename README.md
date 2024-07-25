@@ -9,7 +9,6 @@ The dataset used for this project is from the [House Prices - Advanced Regressio
 - `house_price_prediction.py`: Main script to preprocess the data, train the model, and make predictions.
 - `train.csv`: Training dataset.
 - `test.csv`: Test dataset.
-- `sample_submission.csv`: Sample submission file.
 
 ## How to Run
 1. Ensure all the necessary libraries are installed:
